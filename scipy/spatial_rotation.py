@@ -30,7 +30,7 @@ def Rot(alpha, beta, gamma):
 
 # 绕z轴逆时针旋转90度
 # 生成Rotation实例
-R1 = R.from_quat([0, 0, np.sin(np.pi/4), np.cos(np.pi/4)])
+R1 = R.from_quat([0, 0, np.sin(np.pi/4), np.cos(np.pi/4)])  # in (x, y, z, w) format, 实部在后
 R2 = R.from_matrix([[0, -1, 0],
                     [1, 0, 0],
                     [0, 0, 1]])

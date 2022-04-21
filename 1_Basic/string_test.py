@@ -12,6 +12,14 @@ def string_formate_test():
     '''
     三种格式字符串的方法
     '''
+    pass
+
+def string_func():
+    '''
+    count, endswith, startswith, find, index, rfind, rindex, 
+    format, join, 
+    partition, replace, split, strip(lstrip, rstrip)
+    '''
 
 
 def string_process():
